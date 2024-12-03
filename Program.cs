@@ -32,17 +32,17 @@ public class Program
         //Console.MoveBufferArea(0, 0, 20, 5, 25, 0);
         //Task.Delay(500).Wait();
 
-        Console.WriteLine("""
-            Name: Gleb
-            Surname: Savin
-            """);
-        Task.Delay(2000).Wait();
-        // TO --> FROM
-        Console.MoveBufferArea(0, 0, 20, 5, 25, 0, 'F',
-                                ConsoleColor.Black,
-                                ConsoleColor.Yellow);
-        Task.Delay(2000).Wait();
-        Console.WriteLine("\n\n\n");
+        //Console.WriteLine("""
+        //    Name: Gleb
+        //    Surname: Savin
+        //    """);
+        //Task.Delay(2000).Wait();
+        //// TO --> FROM
+        //Console.MoveBufferArea(0, 0, 20, 5, 25, 0, 'F',
+        //                        ConsoleColor.Black,
+        //                        ConsoleColor.Yellow);
+        //Task.Delay(2000).Wait();
+        //Console.WriteLine("\n\n\n");
 
 
         //while (true)
@@ -53,7 +53,6 @@ public class Program
 
 
         //Stream errorStream = Console.OpenStandardError();
-        //Stream inputStream = Console.OpenStandardInput();
 
         //for (int i = 0; i < 125; i++)
         //{
@@ -61,9 +60,6 @@ public class Program
         //    ReadOnlySpan<byte> buffer = new(ref data);
         //    errorStream.Write(buffer);
         //    Task.Delay(800).Wait();
-
-        //    inputStream.Write(buffer);
-        //    Task.Delay(400).Wait();
         //}
 
         //// Project 3
